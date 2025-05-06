@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rösti Delivery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Fredoka', sans-serif;
+      background-color: #FDE5B3;
+      color: #4B2E1D;
+    }
+    header {
+      background-color: #E27D34;
+      padding: 1rem 2rem;
+      color: white;
+      text-align: center;
+    }
+    .hero {
+      padding: 2rem;
+      text-align: center;
+      background-color: #fff3db;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .btn {
+      padding: 1rem 2rem;
+      background-color: #E27D34;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      border-radius: 12px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .cardapio {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .item {
+      background: white;
+      border-radius: 16px;
+      padding: 1rem;
+      width: 200px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .rastreamento {
+      background-color: #fff;
+      padding: 2rem;
+      text-align: center;
+      border-top: 3px dashed #E27D34;
+      border-bottom: 3px dashed #E27D34;
+    }
+    .rastreamento input {
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 2px solid #E27D34;
+      border-radius: 8px;
+      margin-right: 0.5rem;
+    }
+    .whatsapp-link {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #E27D34;
+      text-align: center;
+      padding: 1rem;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RÖSTI DELIVERY</h1>
+  </header>
+
+  <div class="hero">
+    <h1>O Pedido Já Saiu Para Entrega!</h1>
+    <p>O sabor crocante que vai direto até você</p>
+    <button class="btn">Fazer Pedido Agora</button>
+  </div>
+
+  <div class="section">
+    <h2>Nosso Cardápio</h2>
+    <div class="cardapio">
+      <div class="item">
+        <h3>Rösti Clássico</h3>
+        <p>Batata crocante e recheio cremoso</p>
+        <button class="btn">Adicionar</button>
+      </div>
+      <div class="item">
+        <h3>Rösti Veggie</h3>
+        <p>100% sabor, 0% carne</p>
+        <button class="btn">Adicionar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="rastreamento">
+    <h2>Rastreie seu pedido</h2>
+    <p>Digite o número do seu pedido abaixo:</p>
+    <input type="text" placeholder="#12345">
+    <button class="btn">Rastrear</button>
+  </div>
+
+  <div class="section" style="text-align:center">
+    <h2>Fale Conosco</h2>
+    <p>Precisa de ajuda ou quer falar com a gente?</p>
+    <a class="whatsapp-link" href="https://wa.me/5599999999999" target="_blank">Falar no WhatsApp</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Rösti Delivery - Feito com crocância</p>
+  </footer>
+</body>
+</html>
